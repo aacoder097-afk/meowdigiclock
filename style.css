@@ -37,4 +37,17 @@ body {
 
 }
 
+img {
+  position: absolute;
+  z-index: -1;
+  width: 550px;
+  height: 550px;
+}
+
+@media (max-width: 600px) {
+  img, .clock-container {
+    width: 100%;
+    height: auto;
+  }
+}
 
